@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Comfortaa&family=Gantari:wght@300&family=Poppins:wght@300&family=Red+Hat+Display&family=Source+Sans+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Comfortaa&family=Gantari:wght@300&family=Kumbh+Sans&family=Poppins:wght@300&family=Red+Hat+Display&family=Source+Sans+Pro:ital@1&display=swap');
+
+body {
+    margin: 0;
+    
+}
+
+#card {
+    width: 100vw; 
+    height: 100vh;
+    background: #2a233a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#login-form h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #77ffc0;
+    position: relative;
+    margin-left: 150px;
+}
+
+
+
+#left-text {
+    font-family: 'Poppins', sans-serif;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 110px;
+    font-weight: 800;
+    color: #ffff;
+}
+
+#left-text h1 span {
+    color: #77ffc0;
+}
+
+#login-form h1::before{
+    position: absolute;
+    content: '';
+    width: 10%;
+    background-color: rgb(124, 180, 219);
+    height: 2px;
+    bottom: 8px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#card-input {
+    width: 400px;
+    height: 50vh;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px, 35px;
+    background:#412f6b;
+    box-shadow:  5px 5px 8px #51b989;
+    border-radius: 9px;
+   
+   
+}
+
+.input-box {
+    font-family:  'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+}
+
+.input-box input  {
+    border: solid #81749d 1px;
+    border-radius: 8px 5px 5px 8px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 30vh;
+    padding: 1vh 1vh;
+    margin-left: 5px;
+    background: #514869;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #77ffc0;
+   transition: 1s;
+    cursor: text;
+    outline: none;
+    
+}
+
+
+
+:root {
+    --color-purple-50: #6621a7;
+    --color-purple-100: #804bb1;
+    --color-purple-900: #8f6eae;
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-900))
+}
+
+:root {
+    --color-green-50: #21a7a0;
+    --color-green-100: #63c0bc;
+    --color-green-900: #9ccfcc;
+    --gradient: linear-gradient(90deg, var(--color-green-50), var(--color-green-100), var(--color-green-900))
+}
+
+
+.input-box button {
+    width: 15vh;
+    padding: 5px;
+    margin-left: 22px;
+    background: var(--color-gradient);
+    border: transparent;
+    cursor: pointer;
+    animation: 1.5s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+   
+}
+
+.input-box button:hover {
+    background: var(--gradient);
+    border: solid white 1px;
+    border-radius: 4px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    main {
+    padding: 6px;
+    width: 1130px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+     main {
+    padding: 6px;
+    width: 1300px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    form{
+    padding: 6px;
+    width: 661px;
+}
+}
+
